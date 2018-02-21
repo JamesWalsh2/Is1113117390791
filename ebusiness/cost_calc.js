@@ -1,12 +1,12 @@
 /* global $ */
-/* global argSubtotal */
-/* global argDiscount */
-/* global argVat */
+
+     var argSubtotal;
+     var argDiscount
+     var argVat
+     var argTotal
 
 function calcSub(){
     
-        var argSubtotal;
-        
         if(document.getElementById('salesforce').checked) {
             argSubtotal = 100;
             calDisVatTotal();
@@ -23,19 +23,15 @@ function calcSub(){
             argSubtotal = 400;
             calDisVatTotal();
         }
-        
-calDisVatTotal();
 
 }
 
-function calDisVatTotal(){
-        
-          if(document.getElementById('salesforce').checked) {
-            argDiscount = argSubtotal * 5%;
-            argVat = (argSubtotal - argDiscount) * 10%;
-            argTotal = (argSubtotal - argDiscount) + argVat;
-        }
-        
+function calDisVatTotal(parmSubTotal){
+
+        argDiscount = argSubtotal * 0.05;
+        argVat = (argSubtotal - argDiscount) * .10;
+        argTotal = (argSubtotal - argDiscount) + argVat;
+      
 display();
 }
         
