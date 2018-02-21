@@ -25,9 +25,23 @@
             
             <br/>
             
+            <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" onclick="disablebtnProceed()"/>
+                Cloud 9 @ $200
+            </label>
+            
+            <br/>
+            
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
-                AWS @ $300
+                Amazon Web Services @ $300
+            </label>
+            
+            <br/>
+            
+            <label for="gmail">
+                <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
+                Gmail @ $400
             </label>
             
             <br/>
@@ -35,14 +49,28 @@
             
             <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            
+            <label for="discount">
+                Discount @ 5%
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            
+            <label for="vat">
+                Vat @ 10%
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             
             <br/>
             
             <label for="total">
                 Total
-                <input type="text" id="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
             
             
