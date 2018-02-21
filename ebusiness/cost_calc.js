@@ -32,7 +32,7 @@ function calDisVatTotal(parmSubTotal){
         argVat = (argSubtotal - argDiscount) * .10;
         argTotal = (argSubtotal - argDiscount) + argVat;
       
-display();
+display(argSubtotal, argDiscount, argVat, argTotal);
 }
         
 function display(parm1, parm2, parm3, parm4){
