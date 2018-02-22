@@ -1,9 +1,9 @@
 /* global $ */
 
      var argSubtotal;
-     var argDiscount
-     var argVat
-     var argTotal
+     var discountAmt
+     var vatAmt
+     var totalPrice
 
 function calcSub(){
     
@@ -28,11 +28,11 @@ function calcSub(){
 
 function calDisVatTotal(parmSubTotal){
 
-        argDiscount = argSubtotal * 0.05;
-        argVat = (argSubtotal - argDiscount) * .10;
-        argTotal = (argSubtotal - argDiscount) + argVat;
+        discountAmt = argSubtotal * 0.05;
+        vatAmt = (argSubtotal - discountAmt) * .10;
+        totalPrice = (argSubtotal - discountAmt) + vatAmt;
       
-display(argSubtotal, argDiscount, argVat, argTotal);
+display(argSubtotal, discountAmt, vatAmt, totalPrice);
 }
         
 function display(parm1, parm2, parm3, parm4){

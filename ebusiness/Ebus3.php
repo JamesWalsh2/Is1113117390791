@@ -12,7 +12,7 @@ session_start();
         
         <?php
         // Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo"Total is " . $_SESSION["total"] . ".";
         ?>
         
     </body>
