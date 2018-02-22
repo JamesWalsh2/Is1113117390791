@@ -4,6 +4,23 @@
      var discountAmt
      var vatAmt
      var totalPrice
+     
+function validateCustomer(){
+    
+    var name = document.forms["customer details"]["user_name"].value;
+    
+     if (name==""){
+        alert("Please enter your Name");
+        return false;
+        }
+    
+    var email = document.forms["customer details"]["user_email"].value;
+    
+    if (email==""){
+        alert("Please enter your Email");
+        return false;
+        }
+}
 
 function calcSub(){
     

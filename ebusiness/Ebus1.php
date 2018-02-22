@@ -12,36 +12,53 @@
     </head>
     
     <body>
-        <h4>Select a product</h4>
         
-        <br/>
+        <center>
         
-        <form method="POST" action="Ebus2.php">
+        <form method="POST" action="Ebus2.php" name="customer details" onSubmit="return validateCustomer()">
+            
+             <label for="user_name">
+                    Name
+                </label>
+                
+                <input type="text" id="user_name" name="user_name" placeholder="Customer Name" minlength="1">
+                
+                <br/>
+                
+                <label for="user_email">
+                    Email
+                </label>
+                
+                <input type="email" id="user_email" name="user_email" placeholder="Customer Email">
+                
+                 <br/>
+                 
+                 <h4>Select a product</h4>
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
+                SalesForce @ €100
             </label>
             
             <br/>
             
             <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onclick="disablebtnProceed()"/>
-                Cloud 9 @ $200
+                Cloud 9 @ €200
             </label>
             
             <br/>
             
             <label for="aws">
                 <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
-                Amazon Web Services @ $300
+                Amazon Web Services @ €300
             </label>
             
             <br/>
             
             <label for="gmail">
                 <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
-                Gmail @ $400
+                Gmail @ €400
             </label>
             
             <br/>
@@ -84,5 +101,8 @@
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
+        </center>
+        
     </body>
+    
 </html>

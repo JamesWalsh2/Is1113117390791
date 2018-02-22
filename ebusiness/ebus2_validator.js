@@ -15,7 +15,6 @@ function validateDetails(){
     else{
         enablebtnPurchase();
         }
-}
 
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled',false);
@@ -23,4 +22,5 @@ function enablebtnPurchase(){
 
 function disablebtnPurchase(){
      $('#btnPurchase').prop('disabled',true);
+}
 }

@@ -12,14 +12,37 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
     </head>
+    
+    <style>
+        .next{
+            text-decoration: none;
+            padding: 2px 10px;
+            font-family: inherit;
+            font-size: 15px;
+            color: #4CAF50;
+            background-color: white;
+            border-radius: 8px;
+            border: 2px solid #4CAF50; /* Green */
+        }
+        .next:hover {background-color: #3e8e41}
+
+        .next:active {
+          background-color: #7FFFD4;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+    </style>
+    
     <body>
+        <center>
         <h1 class="mainheading">Personal Details</h1>
         
         <p><strong>Name:</strong> James Walsh </p>
         <p><strong>Address:</strong> Main Street, Fethard, Co.Tipperary </p>
-        <p><strong>Phone:</strong> 99999999</p>
+        <p><strong>Phone:</strong> **********</p>
         <p><strong>Email:</strong> 117390791@umail.ucc.ie</p>
         
-        <a href="cv_page2.html">Next</a>
+        <a href="cv_page2.html" class="btn next">Next</a>
+        </center>
     </body>
 </html>

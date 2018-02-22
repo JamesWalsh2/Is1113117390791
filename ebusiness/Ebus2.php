@@ -23,6 +23,9 @@ session_start();
             
             <form method = "POST" action = "Ebus3.php">
                 
+                
+                <br/>
+                
                 <label for="user_pin">
                      PIN 
                 </label>
@@ -39,9 +42,11 @@ session_start();
             
             <button onClick="validateDetails()"> Validate </button>
         
-            <?php
+             <?php
             // Set session variables
-            $_SESSION["total"] = $_Post["total"];
+            $_SESSION["user_name"] = $_POST["user_name"];
+            $_SESSION["user_email"] = $_POST["user_email"];
+            $_SESSION["total"] = $_POST["total"];
             ?>
             
     </body>
