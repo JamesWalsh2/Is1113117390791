@@ -26,6 +26,8 @@ session_start();
         echo"Total is " . $_SESSION["total"] . ".";
         ?>
         
+        <a href="homepage.html" class="btn next">Home</a>
+        
         </center>
         
     </body>
