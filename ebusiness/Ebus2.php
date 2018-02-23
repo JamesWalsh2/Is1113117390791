@@ -17,6 +17,8 @@ session_start();
     
     <body>
         
+        <center>
+        
         <h4>Please enter your payment details.</h4>
         
             <br />
@@ -48,6 +50,8 @@ session_start();
             $_SESSION["user_email"] = $_POST["user_email"];
             $_SESSION["total"] = $_POST["total"];
             ?>
+            
+            </center>
             
     </body>
     
