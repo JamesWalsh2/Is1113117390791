@@ -83,6 +83,86 @@
   text-align: center;
 }
 
+.containeramazon {
+  position: relative;
+  width: 50%;
+}
+
+.imageamazon {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.overlayamazon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containeramazon:hover .overlayamazon {
+  opacity: 1;
+}
+
+.textamazon {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.containergmail {
+  position: relative;
+  width: 50%;
+}
+
+.imagegmail {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.overlaygmail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containergmail:hover .overlaygmail {
+  opacity: 1;
+}
+
+.textgmail {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
 </style>
 </head>
 <body>
@@ -92,19 +172,21 @@
         
         <p>Hover over the image to learn more about them.</p>
 
-<h2>Salesforce</h2>
+<h2>Software as a Service - Salesforce</h2>
 
 <div class="container">
   <img src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" alt="Salesforce" class="image">
   <div class="overlay">
-    <div class="text">Salesforce is the world’s #1 Customer Relationship Management (CRM) platform. Our cloud-based applications for sales, service, marketing, and more don’t require IT experts to set up or manage — simply log in and start connecting to customers in a whole new way.</div>
+    <div class="text">Salesforce is the world's #1 Customer Relationship Management (CRM) platform. Our cloud-based applications for sales, service, marketing, and more don't require IT experts to set up or manage - simply log in and start connecting to customers in a whole new way.</div>
   </div>
 </div>
 
-<br>
-<br>
+<br/>
+<br/>
+<br/>
+<br/>
 
-<h2>Cloud 9</h2>
+<h2>Platform as a Service - Cloud 9</h2>
 
 <div class="containercloud">
   <img src="http://www.stickpng.com/assets/images/5847eb34cef1014c0b5e484b.png" alt="Cloud 9" class="imagecloud">
@@ -113,7 +195,33 @@
   </div>
 </div>
 
-<a href="homepage.html" class="btn next">Home</a>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h2>Infrastructure as a Service - Amazon Web Services</h2>
+
+<div class="containeramazon">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" alt="Amazon" class="imageamazon">
+  <div class="overlayamazon">
+    <div class="textamazon">Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. Explore how millions of customers are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased flexibility, scalability and reliability.</div>
+  </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h2>Communication as a Service - Gmail</h2>
+
+<div class="containergmail">
+  <img src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" alt="gmail" class="image">
+  <div class="overlay">
+    <div class="text">Salesforce is the world's #1 Customer Relationship Management (CRM) platform. Our cloud-based applications for sales, service, marketing, and more don't require IT experts to set up or manage - simply log in and start connecting to customers in a whole new way.</div>
+  </div>
+</div>
 
 </body>
 </html>

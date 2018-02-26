@@ -1,22 +1,32 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background-image: url("https://www.findingtheuniverse.com/wp-content/uploads/2017/11/Steps2BEdinburgh_by_Laurence2BNorah255B3255D.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: inherit;
+    font-size: 40px;
+    text-shadow: 3px 2px black;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("https://www.themasculinetraveler.com/wp-content/uploads/2018/02/Helsinki-Finland.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: inherit;
+    font-size: 40px;
+    text-shadow: 3px 2px black;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/RockOfCashelSummer1986.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: inherit;
+    font-size: 40px;
+    text-shadow: 3px 2px black;
 }
 .section{
     text-align: center;
     color: white;
-}
-
-body {
-    font-family: inherit;
-    font-size: 20px;
 }
 
 .btn-success {
