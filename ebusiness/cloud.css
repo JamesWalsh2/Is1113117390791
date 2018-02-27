@@ -1,45 +1,44 @@
 #section1{
+    text-align: center;
+    font-family: inherit;
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 2px black;
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
     background-size: cover;
-    position: center;
-    height: 100vh;
+    background-position: center;
 }
 
 #section2{
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }   
 
 #section3{
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 #section4{
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 #section5{
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 .section{
     text-align:center;
-
 }
 
-image{
-    height: 70px;
-    width: 70px;
+img {
+    height: 200px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -49,11 +48,9 @@ p {
     width: 400px;
     padding: 25px;
     }
-    
-.heading{
-    text-align: center;
-    font-family: inherit;
-    font-size: 100px;
-    color: white;
-    text-shadow: 3px 2px black;
-}
+
+h1 {
+    background-color: white;
+    width: 400px;
+    padding: 15px;
+    }  

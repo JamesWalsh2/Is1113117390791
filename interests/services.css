@@ -1,29 +1,47 @@
 #section1{
-    background-image: url("https://www.findingtheuniverse.com/wp-content/uploads/2017/11/Steps2BEdinburgh_by_Laurence2BNorah255B3255D.jpg");
+    background-image: url("http://www.senawave.com/wp-content/uploads/2015/04/CloudServices1.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #section2{
-    background-image: url("https://www.themasculinetraveler.com/wp-content/uploads/2018/02/Helsinki-Finland.jpg");
+    background-image: url("http://www.senawave.com/wp-content/uploads/2015/04/CloudServices1.jpg");
     background-size: cover;
     background-position: center;
-}
+}   
 
 #section3{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/RockOfCashelSummer1986.jpg");
+    background-image: url("http://www.senawave.com/wp-content/uploads/2015/04/CloudServices1.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .section{
-    text-align: center;
-    color: white;
+    text-align:center;
 }
 
+p {
+    background-color: white;
+    width: 400px;
+    padding: 25px;
+    }
+
 h1 {
-    font-family: inherit;
-    font-size: 40px;
-    text-shadow: 3px 2px black;
+    background-color: white;
+    width: 400px;
+    padding: 15px;
+    } 
+
+.safe {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+}
+
+.benefits {
+    background-color: white;
+    width: 200px;
+    padding: 15px;
 }
 
 .home {
@@ -39,24 +57,6 @@ h1 {
 .home:hover {background-color: #3e8e41}
 
 .home:active {
-  background-color: #66ff99;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.sport {
-    text-decoration: none;
-    padding: 10px 20px;
-    font-family: inherit;
-    font-size: 15px;
-    color: #4CAF50;
-    background-color: white;
-    border-radius: 8px;
-    border: 2px solid #4CAF50;
-}
-.sport:hover {background-color: #3e8e41}
-
-.sport:active {
   background-color: #66ff99;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
