@@ -1,218 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Personal</title>
-
-        <!--Adding Bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>Personal Details</title>
         
     </head>
     
     <style>
-    
-    html {
-  height: 100%;
-  overflow: hidden;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: Nunito;
-}
-
-h1 {
-  font-size: 250%;
-}
-
-p {
-  font-size: 140%;
-  line-height: 150%;
-  color: #333;
-}
-
-.slide {
-  position: relative;
-  padding: 25vh 10%;
-  min-height: 100vh;
-  width: 100vw;
-  box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
-  transform-style: inherit;
-}
-
-img {
-  position:absolute;
-  top: 50%;
-  right: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(0.25px) scale(0.75) translateX(-94%) translateY(-100%)
-    rotate(2deg);
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(240, 230, 220, 0.7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
-}
-
-img:last-of-type {
-  transform: translateZ(0.4px) scale(0.6) translateX(-104%) translateY(-40%)
-    rotate(-5deg);
-}
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.7);
-}
-
-.title {
-  width: 50%;
-  padding: 5%;
-  border-radius: 5px;
-  background: rgba(240, 230, 220, 0.7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
-  text-shadow: 3px 2px white;
-}
-
-.slide:nth-child(2n) .title {
-  margin-left: auto;
-  margin-right: 0;
-}
-
-.slide:nth-child(2n + 1) .title {
-  margin-left: auto;
-  margin-right: 0;
-}
-
-.slide,
-.slide:before {
-  background: 50% 50% / cover;
-}
-
-
-#title {
-  background-image: url("https://www.cpl.ie/Library/CPL/cpl.ie/Blog/Finding%20Your%20Next%20Job/Finance-CV.png");
-  z-index: 2;
-}
-
-#title h1 {
-  transform: translateZ(0.25px) scale(0.75);
-  transform-origin: 50% 100%;
-}
-
-#slide1:before {
-  background-image: url("https://www.ifa.ie/wp-content/uploads/2014/06/County_Mayo-Ireland-Rural_area.jpg?w=640");
-  transform: translateZ(-1px) scale(2);
-}
-
-#slide2 {
-  background-image: url("https://static-1.europeanschooluxembourg2.eu/wp-content/uploads/education_button2.jpg");
-  z-index: 2;
-}
-
-#slide3 {
-  background-image: url("https://getpositive.today/wp-content/uploads/2017/11/work-1.jpg");
-  z-index: 2;
-}
-
-#slide4 {
-  background: #222;
-}
-    
-        .next{
+        h1 {
+            font-size: 50px;
+        }
+        
+        body {
+            background-image: url(https://www.irelandbeforeyoudie.com/wp-content/uploads/2015/06/Rock-of-Cashel-Co.-Tipperary.-An-amazing-place-Share-this-picture-if-you-agree.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            font-family: inherit;
+            }
+            
+        p {
+            background-color: white;
+            width: 320px;
+            padding: 15px;
+        }
+        
+        #image { 
+            border: 10px solid transparent;
+            border-image: url(http://www.pngmart.com/files/5/Red-Border-Frame-Transparent-Background.png) 30 round;
+        }
+        
+        .next {
             text-decoration: none;
-            padding: 2px 10px;
+            padding: 10px 20px;
             font-family: inherit;
             font-size: 15px;
             color: #4CAF50;
             background-color: white;
             border-radius: 8px;
-            border: 2px solid #4CAF50; /* Green */
+            border: 2px solid #4CAF50;
         }
         .next:hover {background-color: #3e8e41}
-
+        
         .next:active {
-          background-color: #7FFFD4;
+          background-color: #66ff99;
           box-shadow: 0 5px #666;
           transform: translateY(4px);
         }
     </style>
     
     <body>
-        
-            <div id="title" class="slide header" align="center">
-  <h1>Curriculum Vitae</h1>
-</div>
-
-<div id="slide1" class="slide">
-  <div class="title">
-    <h1>Personal Details</h1>
-        
-        
-        <p><strong>Name:</strong> James Walsh </p>
-        <p><strong>Address:</strong> Main Street, Fethard, Co.Tipperary </p>
-        <p><strong>Phone:</strong> **********</p>
-        <p><strong>Email:</strong> 117390791@umail.ucc.ie</p>
-        
+        <center>
+        <h1 class="mainheading"> Personal Details </h1>
+        </br>
+    <div id="secondary" class="secondary">
+        <div></div>
+        <img src="/images/IMG-20180218-WA0004[1].jpg" style="float:right" height="300px" width="200px" id="image">
+        <img src="/images/IMG-20180218-WA0006[1].jpg" height="300px" width="200px" style="float:left" id="image">
         </div>
-</div>
-
-<div id="slide2" class="slide">
-  <div class="title">
-    <h1>Education Details</h1>
-<p><strong>Secondary School:</strong> Cashel Community School </p>
-        <p><strong>Year:</strong> 2011-2017 </p>
+        <br/>
+        <br/>
+        <p><strong>Name:</strong> James Walsh
+        <br><strong>Address:</strong> Main Street, Fethard, Co.Tipperary
+        <br><strong>Phone:</strong> **********
+        <br><strong>Email:</strong> 117390791@umail.ucc.ie</p>
+    </div>
         
         <br/>
-        
-        <p><strong>College:</strong> UCC </p>
-        <p><strong>Course:</strong> BIS </p>
-        <p><strong>Year:</strong> 2017-2021 </p>
-        
-        </div>
-        
-  <img src="https://pbs.twimg.com/profile_images/943227822700720128/zvHShW8D_400x400.jpg">
-  <img src="http://www.ucccampusaccommodation.com/wp-content/uploads/2014/07/The-quad.jpg">
-</div>
-
-<div id="slide3" class="slide">
-  <div class="title">
-    <h1>Work Experience</h1>
-<p><strong>Company:</strong> Rockhouse Restaurant </p>
-        <p><strong>Job Title:</strong> Waiter </p>
-        <p><strong>Year:</strong> 2015-2017 </p>
-        
-        <br/>
-        
-        <p><strong>Company:</strong> Mikey Ryan's </p>
-        <p><strong>Job Title:</strong> Barman </p>
-        <p><strong>Year:</strong> 2018-Present </p> 
-        
-</div>
-
-<img src="https://media-cdn.tripadvisor.com/media/photo-s/06/0e/e0/f0/rock-house-restaurant.jpg">
-<img src="https://media-cdn.tripadvisor.com/media/photo-s/10/5b/37/96/mikey-ryan-s-bar-kitchen.jpg">
-</div>
-
-<div id="slide4" class="slide">
-
-    <center>
-    <a href= "../homepage.html">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVerPE2OdhDC9eTxtwntJQN23NlGXXRgh-NYjixT3L71DfkEcHKA"
-    </a>
-    </center>
-</div>
+        <a href="/homepage.html" class="btn next">Home</a>
+        <a href="/cv/cv_page2.html" class="btn next">Next</a>
+        </center>
         
     </body>
 </html>

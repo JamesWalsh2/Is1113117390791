@@ -13,6 +13,13 @@ function validateCustomer(){
         alert("Please enter your Name");
         return false;
         }
+        
+    var address = document.forms["customer details"]["user_address"].value;
+    
+     if (address==""){
+        alert("Please enter your Address");
+        return false;
+        }
     
     var email = document.forms["customer details"]["user_email"].value;
     

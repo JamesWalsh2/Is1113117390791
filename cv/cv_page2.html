@@ -1,29 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Personal</title>
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-        <!--Adding Bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>Education Details</title>
         
     </head>
+    
+    <style>
+        h1 {
+            font-size: 50px;
+        }
+        
+        body {
+            background-image: url(https://static-1.europeanschooluxembourg2.eu/wp-content/uploads/education_button2.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: inherit;
+            }
+            
+        p {
+            background-color: white;
+            width: 320px;
+            padding: 15px;
+        }
+        
+        #image { 
+            border: 10px solid transparent;
+            border-image: url(http://www.pngmart.com/files/5/Red-Border-Frame-Transparent-Background.png) 30 round;
+        }
+        
+        .next {
+            text-decoration: none;
+            padding: 10px 20px;
+            font-family: inherit;
+            font-size: 15px;
+            color: #4CAF50;
+            background-color: white;
+            border-radius: 8px;
+            border: 2px solid #4CAF50;
+        }
+        .next:hover {background-color: #3e8e41}
+        
+        .next:active {
+          background-color: #66ff99;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+    </style>
+    
     <body>
         <center>
         <h1 class="mainheading"> Education Details </h1>
-        
-        <p><strong>College:</strong> UCC </p>
-        <p><strong>Course:</strong> BIS </p>
-        <p><strong>Year:</strong> 2017-2021 </p>
+        </br>
+    <div id="secondary" class="secondary">
+        <div>
+        <a href="http://www.cashelcommunityschool.ie/">
+        <img src="http://www.ngw.nl/heraldrywiki/images/e/e9/Cashelcs.jpg" style="float:left" height="200px" width="200px" id="image">
+        <img src="https://pbs.twimg.com/profile_images/943227822700720128/zvHShW8D_400x400.jpg" height="200px" width="200px" style="float:right" id="image">
+        </a>
+        </div>
+        <br/>
+        <br/>
+        <p><strong>Secondary School:</strong> Cashel Community School
+        <br><strong>Year:</strong> 2011-2017
+        <br><strong>Leaving Cert Results:</strong> 477 points
+    </div>
         
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         
-        <p><strong>Secondary School:</strong> Cashel Community School </p>
-        <p><strong>Year:</strong> 2011-2017 </p>
+    <div id="college" class="college">
+        <div>
+        <a href="https://ucc.ie">
+        <img src="http://www.ucccampusaccommodation.com/wp-content/uploads/2014/07/The-quad.jpg" style="float:left" height="200px" width="200px" id="image">
+        <img src="https://www.ucc.ie/en/media/academic/schoolofenglish/ucc.jpg" height="200px" width="200px" style="float:right" id="image">
+        </a>
+        </div>
+        <br/>
+        <br/>
+        <p><strong>College:</strong> University College Cork
+        <br><strong>Course:</strong> Business Information Systems
+        <br><strong>Year:</strong> 2017-2021 </p>
+    </div>
         
-        <a href="cv_page3.html">Next</a>
+        <br/>
+        <a href="/homepage.html" class="btn next">Home</a>
+        <a href="/cv/cv_page1.html" class="btn next">Previous</a>
+        <a href="cv_page3.html" class="btn next">Next</a>
         </center>
+        
     </body>
 </html>

@@ -1,52 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Work</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-        <!--Adding Bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>Work Experience</title>
         
     </head>
+    
     <style>
-        .next{
+        h1 {
+            font-size: 50px;
+        }
+        
+        body {
+            background-image: url(https://getpositive.today/wp-content/uploads/2017/11/work-1.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: inherit;
+            }
+            
+        p {
+            background-color: white;
+            width: 320px;
+            padding: 15px;
+        }
+        
+        #image { 
+            border: 10px solid transparent;
+            border-image: url(http://www.pngmart.com/files/5/Red-Border-Frame-Transparent-Background.png) 30 round;
+        }
+        
+        .next {
             text-decoration: none;
-            padding: 2px 10px;
+            padding: 10px 20px;
             font-family: inherit;
             font-size: 15px;
             color: #4CAF50;
             background-color: white;
             border-radius: 8px;
-            border: 2px solid #4CAF50; /* Green */
+            border: 2px solid #4CAF50;
         }
         .next:hover {background-color: #3e8e41}
-
+        
         .next:active {
-          background-color: #7FFFD4;
+          background-color: #66ff99;
           box-shadow: 0 5px #666;
           transform: translateY(4px);
         }
     </style>
+    
     <body>
         <center>
-        <h1 class="mainheading"> Experience </h1>
+        <h1 class="mainheading"> Work Experience </h1>
+        </br>
+    <div id="rock" class="rock">
+        <div>
+        <a href="http://www.rockhouse.ie/">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/0e/e0/f0/rock-house-restaurant.jpg" style="float:left" height="200px" width="200px" id="image">
+        <img src="http://www.cashel.ie/wp-content/uploads/2016/12/cashel-restaurants-img-7.jpg" height="200px" width="200px" style="float:right" id="image">
+        </a>
+        </div>
+        <br/>
+        <br/>
+        <p><strong>Company:</strong> Rockhouse Restaurant
+        <br><strong>Job Title:</strong> Waiter
+        <br><strong>Year:</strong> 2015-2017 </p>
+    </div>
         
         <br/>
         <br/>
-        
-        <p><strong>Company:</strong> Rockhouse Restaurant </p>
-        <p><strong>Job Title:</strong> Waiter </p>
-        <p><strong>Year:</strong> 2015-2017 </p>
-        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         
-        <p><strong>Company:</strong> Mikey Ryan's </p>
-        <p><strong>Job Title:</strong> Barman </p>
-        <p><strong>Year:</strong> 2018-Present </p>
+    <div id="mikey" class="mikey">
+        <div>
+        <a href=https://www.mikeyryans.ie/">
+        <img src=https://www.jobs.ie/Cashel-Palace-Hotel/logos/cashel-palace-hotel-43545.png" height="200px" width="200px" style="float:left" id="image">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/5b/3b/be/mryan-c19th-facade-on.jpg" style="float:right" height="200px" width="200px" id="image">
+        </a>
+        </div>
+        <br/>
+        <br/>
+        <p><strong>Company:</strong> Mikey Ryan's
+        <br><strong>Job Title:</strong> Barman
+        <br><strong>Year:</strong> 2018-Present </p>
+    </div>
         
-        <a href="../homepage.html" class="btn next">Home</a>
+        <br/>
+        <a href="/homepage.html" class="btn next">Home</a>
+        <a href="/cv/cv_page2.html" class="btn next">Previous</a>
+        <a href="/interests/sports.html" class="btn next">Interests</a>
         </center>
+        
     </body>
 </html>
