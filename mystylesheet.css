@@ -1,19 +1,15 @@
-.mainheading{
-    text-align: center;
-    height: 20px;
-    margin: -20px;
-    padding: 70px;
-    background-color: #DC143C;
-}
 body {
-    background-color: lightblue;
-    
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/bc/08/a6/bc08a6cb88a01ff59c01928a283fa40c.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: verdana;
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-family: inherit;
+    font-family: verdana;
 }
 .cv {
     text-decoration: none;

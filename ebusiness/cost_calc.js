@@ -1,9 +1,9 @@
 /* global $ */
 
      var argSubtotal;
-     var discountAmt
-     var vatAmt
-     var totalPrice
+     var discountAmt;
+     var vatAmt;
+     var totalPrice;
      
 function validateCustomer(){
     
@@ -48,7 +48,7 @@ function calcSub(){
             calDisVatTotal();
         }
 
-}
+                }
 
 function calDisVatTotal(parmSubTotal){
 

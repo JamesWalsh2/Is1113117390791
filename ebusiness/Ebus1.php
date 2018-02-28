@@ -3,8 +3,6 @@
     <head>
         <title>Select Product</title>
         
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
@@ -12,10 +10,14 @@
     </head>
     
     <style>
+    
+        body {
+            background-color: lightblue;
+            }
         
         div {
             background-color: white;
-            width: 400px;
+            width: 300px;
             padding: 25px;
             }
         
@@ -36,132 +38,111 @@
               box-shadow: 0 5px #666;
               transform: translateY(4px);
             }
-            
-        .btnProceed {
-            text-decoration: none;
-            padding: 10px 20px;
-            font-family: inherit;
-            font-size: 15px;
-            color: #4CAF50;
-            background-color: white;
-            border-radius: 8px;
-            border: 2px solid #4CAF50;
-            }
-        .btnProceed:hover {background-color: #3e8e41}
-        
-        .btnProceed:active {
-              background-color: #66ff99;
-              box-shadow: 0 5px #666;
-              transform: translateY(4px);
-            }
         
     </style>
     
     <body>
         
         <center>
-        
         <div>
-        <h2>Please enter the following details:</h2>
+        <h3>Please enter the following details:</h3>
         
         <form method="POST" action="Ebus2.php" name="customer details" onSubmit="return validateCustomer()">
             
             <label for="user_name">
                 Name:
+                <input type="text" id="user_name" name="user_name" placeholder="Customer Name" minlength="1">
             </label>
-                
-            <input type="text" id="user_name" name="user_name" placeholder="Customer Name" minlength="1">
-                
+            
             <br/>
-                
+            
             <label for="user_address">
                 Address:
+                <input type="text" id="user_address" name="user_naddress" placeholder="Customer Address" minlength="1">
             </label>
-                
-            <input type="text" id="user_address" name="user_naddress" placeholder="Customer Address" minlength="1">
-                
-            <br/>
-                
+             
+            <br/>  
+            
             <label for="user_email">
                 Email:
+                <input type="email" id="user_email" name="user_email" placeholder="Customer Email">
             </label>
-                
-            <input type="email" id="user_email" name="user_email" placeholder="Customer Email">
-               
-            </div>
+        </div>
             
-                <br/>
+        
+            <br/> 
                
-            <div>  
+        <div>  
             <h4>Select a product:</h4>
 
+            
             <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ €100
+                <input type="radio" id="salesforce" name="product" style="float:left" checked onClick="disablebtnProceed()"/>
             </label>
             
             <br/>
             
             <label for="cloud9">
-                <input type="radio" id="cloud9" name="product" onclick="disablebtnProceed()"/>
                 Cloud 9 @ €200
+                <input type="radio" id="cloud9" name="product" style="float:left" onclick="disablebtnProceed()"/>
             </label>
             
             <br/>
             
             <label for="aws">
-                <input type="radio" id="aws" name="product" onclick="disablebtnProceed()"/>
                 Amazon Web Services @ €300
+                <input type="radio" id="aws" name="product" style="float:left" onclick="disablebtnProceed()"/>
             </label>
             
             <br/>
             
             <label for="gmail">
-                <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
                 Gmail @ €400
+                <input type="radio" id="gmail" name="product" style="float:left" onclick="disablebtnProceed()"/>
             </label>
             </div>
             
             <br/>
-            <br/>
             
             <div>
             <label for="subtotal">
-                Sub Total
+                Sub Total:
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
             
             <br/>
             
             <label for="discount">
-                Discount @ 5%
+                Discount @ 5%:
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
-            <br/>
             
             <label for="vat">
-                Vat @ 10%
+                Vat @ 10%:
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
             
             <br/>
             
             <label for="total">
-                Total
-                <input type="text" id="total" name="total" value="0.00" readonly/>
+                Total:
+                <input type="text" id="total" name="total" value="0.00" style="float:right" readonly/>
             </label>
             </div>
             
-            <br/>
+            <br>
             
             <button type="submit" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
         <br/>
+        <br/>
         <button onClick="calcSub()" class="btn next">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class="btn next">Clear Choice</a>
+        <a href="/ebusiness/shop.html" class="btn next">Cancel Purchase</a>
         
         </center>
         
