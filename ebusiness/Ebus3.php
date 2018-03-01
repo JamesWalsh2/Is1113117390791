@@ -12,6 +12,7 @@ session_start();
     
         body {
             background-color: lightblue;
+            font-family: verdana;
             }
         
         div {

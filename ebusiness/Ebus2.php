@@ -7,7 +7,7 @@ session_start();
 <html>
     <head>
         
-        <title> Enter Details</title>
+        <title>Enter Details</title>
         
         
         <!--jQuery-->
@@ -19,6 +19,7 @@ session_start();
     
         body {
             background-color: lightblue;
+            font-family: verdana;
             }
         
         div {
@@ -54,7 +55,7 @@ session_start();
         
         <h4>Please enter your payment details.</h4>
         
-            <br />
+            <br/>
             
             <form method="POST" action="Ebus3.php" name="card details" onSubmit="return validateDetails()">
                 

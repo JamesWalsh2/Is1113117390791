@@ -20,9 +20,13 @@
     text-align:center;
 }
 
+body {
+    font-family: verdana;
+}
+
 p {
     background-color: white;
-    width: 400px;
+    width: 500px;
     padding: 25px;
     }
 
