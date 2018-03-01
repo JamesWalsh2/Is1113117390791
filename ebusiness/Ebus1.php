@@ -14,6 +14,7 @@
         body {
             background-color: lightblue;
             font-family: verdana;
+            font-size: 15px;
             }
         
         div {
@@ -69,29 +70,29 @@
             
                 <br/> 
                
-            <div class="box">  
+            <div>  
                 <h4>Select a product:</h4>
     
                 <label for="salesforce">
                     SalesForce @ €100
-                    
                 </label>
                     <input type="radio" id="salesforce" name="product" style="float:left" checked onClick="disablebtnProceed()"/>
+                    
                 <label for="cloud9">
                     Cloud 9 @ €200
-                    
                 </label>
                     <input type="radio" id="cloud9" name="product" style="float:left" onclick="disablebtnProceed()"/>
+                    
                 <label for="aws">
                     Amazon Web Services @ €300
-                    
                 </label>
                     <input type="radio" id="aws" name="product" style="float:left" onclick="disablebtnProceed()"/>
+                    
                 <label for="gmail">
                     Gmail @ €400
-                    
                 </label>
                 <input type="radio" id="gmail" name="product" style="float:left" onclick="disablebtnProceed()"/>
+                
             </div>
                 
                 <br/>

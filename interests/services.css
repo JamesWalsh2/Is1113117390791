@@ -28,24 +28,36 @@ p {
     background-color: white;
     width: 500px;
     padding: 25px;
+    border-radius: 5px;
+    border: 5px solid green;
+    margin: 0;
     }
 
 h1 {
     background-color: white;
     width: 400px;
     padding: 15px;
+    border-radius: 5px;
+    border: 5px solid blue;
+    margin: 0;
     } 
 
 .benefits {
     background-color: white;
     width: 200px;
     padding: 15px;
+    border-radius: 5px;
+    border: 5px solid green;
+    margin: 0;
 }
 
 .safe {
     background-color: white;
     width: 400px;
     padding: 15px;
+    border-radius: 5px;
+    border: 5px solid green;
+    margin: 0;
 }
 
 .home {

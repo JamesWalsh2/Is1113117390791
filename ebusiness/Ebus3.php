@@ -8,6 +8,12 @@ session_start();
         <title>Receipt</title>
     </head>
     
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+    
     <style>
     
         body {
@@ -65,7 +71,8 @@ session_start();
         <br/>
         <br/>
         
-        <a href="/homepage.html" class="btn next">Home</a>
+        <button onclick="printPage()" class="btn next">Print Receipt</button>
+        <a href= "/ebusiness/shop.html" class="btn next">Return</a>
         
         </center>
         

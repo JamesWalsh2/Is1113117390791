@@ -9,7 +9,6 @@ session_start();
         
         <title>Enter Details</title>
         
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
@@ -50,54 +49,48 @@ session_start();
     </style>
     
     <body>
-        
         <center>
-        
-        <h4>Please enter your payment details.</h4>
-        
+            <h4>Please enter your payment details.</h4>
             <br/>
             
             <form method="POST" action="Ebus3.php" name="card details" onSubmit="return validateDetails()">
                 
-                
-                <br/>
+            <br/>
                 
             <div>
-                
                 <label for="user_number">
                      Card Number 
                 </label>
-                
-                <input type="integer" id="user_number" name="user_number" placeholder="Card Number" maxlength="16">
+                <input type="text" id="user_number" name="user_number" placeholder="Card Number" maxlength="16">
             
             <br/>
             
-            <label for="user_cvv">
+                <label for="user_cvv">
                      CVV 
                 </label>
-                
-                <input type="password" id="user_cvv" name="user_cvv" placeholder="CVV" maxlength="3">
+                <input type="text" id="user_cvv" name="user_cvv" placeholder="CVV" maxlength="3">
             
             <br/>
                 
                 <label for="user_pin">
                      PIN 
                 </label>
-                
                 <input type="password" id="user_pin" name="user_pin" placeholder="Pin" maxlength="4">
                     
-                </div>
+            </div>
                     
-                <br/>
+            <br/>
                 <button type="Submit" id="btnPurchase" class="btnPurchase" disabled> 
                     Proceed with Purchase 
                 </button>
                 
             </form>
             
-            <br />
+            <br/>
             
-            <button onClick="validateDetails()" class="btn next"> Validate </button>
+            <a href="/ebusiness/Ebus1.php" class="btn next">Previous</a>
+            <button onClick="validateDetails()" class="btn next">Validate</button>
+            <a href="/ebusiness/shop.html" class="btn next">Cancel Purchase</a>
         
              <?php
             // Set session variables
