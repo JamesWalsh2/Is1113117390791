@@ -6,6 +6,7 @@ session_start();
 <html>
     <head>
         <title>Receipt</title>
+        <link rel="icon" href="/images/Logo.PNG" type="favicon">
     </head>
     
     <script>

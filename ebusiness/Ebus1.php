@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
+        <link rel="icon" href="/images/Logo.PNG" type="favicon">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
