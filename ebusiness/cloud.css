@@ -1,7 +1,7 @@
 #section1{
     text-align: center;
     font-family: verdana;
-    font-size: 100px;
+    font-size: 80px;
     color: white;
     text-shadow: 3px 2px black;
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
@@ -30,10 +30,15 @@
     background-image: url("http://www.hbcugala.com/wp-content/uploads/2017/12/Amazing-Computer-Background-Hd-67-For-Gaming-Hd-Wallpapers-with-Computer-Background-Hd.jpg");
     background-size: cover;
     background-position: center;
+    
 }
 
 .section{
     text-align:center;
+}
+
+body {
+    font-family: verdana;
 }
 
 img {
@@ -44,12 +49,14 @@ img {
 }
 
 p {
+    font-size: 13px;
     background-color: white;
     width: 400px;
     padding: 25px;
     }
 
 h1 {
+    font-size: 20px;
     background-color: white;
     width: 400px;
     padding: 15px;

@@ -12,7 +12,10 @@
     <style>
     
         body {
-            background-color: lightblue;
+            background-image: url("https://media.timeout.com/images/103444978/image.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 120vh;
             font-family: verdana;
             font-size: 15px;
             }
@@ -131,6 +134,7 @@
             <button onClick="calcSub()" class="btn next">Calculate Cost</button>
             <a role="button" href="Ebus1.php" class="btn next">Clear Choice</a>
             <a href="/ebusiness/shop.html" class="btn next">Cancel Purchase</a>
+            </br>
             
         </center>
         

@@ -17,7 +17,10 @@ session_start();
     <style>
     
         body {
-            background-color: lightblue;
+            background-image: url("http://direct-broker24.com/wp-content/uploads/2014/12/A-DIY-System-To-Credit-Card-Debt-Reduction.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
             font-family: verdana;
             }
         
