@@ -18,7 +18,7 @@ session_start();
     <style>
     
         body {
-            background-image: url("http://www.businessadministrationinformation.com/wp-content/uploads/2012/09/what-can-i-do-with-a-business-degree.jpg");
+            background-image: url("/images/HandshakeReceipt.jpg");
             background-size: cover;
             background-position: center;
             height: 100vh;

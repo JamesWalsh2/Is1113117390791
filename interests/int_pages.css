@@ -1,17 +1,17 @@
 #section1{
-    background-image: url("https://www.findingtheuniverse.com/wp-content/uploads/2017/11/Steps2BEdinburgh_by_Laurence2BNorah255B3255D.jpg");
+    background-image: url(/images/EdinburghCastle.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #section2{
-    background-image: url("https://www.themasculinetraveler.com/wp-content/uploads/2018/02/Helsinki-Finland.jpg");
+    background-image: url("/images/Helsinki.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #section3{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/RockOfCashelSummer1986.jpg");
+    background-image: url("/images/CashelTravel.jpg");
     background-size: cover;
     background-position: center;
 }

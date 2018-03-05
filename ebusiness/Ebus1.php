@@ -13,7 +13,7 @@
     <style>
     
         body {
-            background-image: url("https://media.timeout.com/images/103444978/image.jpg");
+            background-image: url("/images/Ebus1.jpg");
             background-size: cover;
             background-position: center;
             height: 120vh;

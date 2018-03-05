@@ -1,17 +1,17 @@
 #section1{
-    background-image: url("http://www.senawave.com/wp-content/uploads/2015/04/CloudServices1.jpg");
+    background-image: url("/images/CloudServices.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #section2{
-    background-image: url("http://www.senawave.com/wp-content/uploads/2015/04/CloudServices1.jpg");
+    background-image: url("/images/CloudServices.jpg");
     background-size: cover;
     background-position: center;
 }   
 
 #section3{
-    background-image: url("http://www.senawave.com/wp-content/uploads/2015/04/CloudServices1.jpg");
+    background-image: url("/images/CloudServices.jpg");
     background-size: cover;
     background-position: center;
 }
