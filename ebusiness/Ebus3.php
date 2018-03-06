@@ -7,15 +7,8 @@ session_start();
     <head>
         <title>Receipt</title>
         <link rel="icon" href="/images/Logo.PNG" type="favicon">
-    </head>
-    
-    <script>
-        function printPage() {
-            window.print();
-        }
-    </script>
-    
-    <style>
+        
+        <style>
     
         body {
             background-image: url("/images/HandshakeReceipt.jpg");
@@ -50,6 +43,14 @@ session_start();
             }
     
     </style>
+    
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+    
+    </head>
     
     <body>
         

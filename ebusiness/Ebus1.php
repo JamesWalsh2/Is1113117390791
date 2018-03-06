@@ -4,13 +4,7 @@
         <title>Select Product</title>
         <link rel="icon" href="/images/Logo.PNG" type="favicon">
         
-        <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
-        
-    </head>
-    
-    <style>
+        <style>
     
         body {
             background-image: url("/images/Ebus1.jpg");
@@ -51,6 +45,12 @@
             }
         
     </style>
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+        
+    </head>
     
     <body>
         

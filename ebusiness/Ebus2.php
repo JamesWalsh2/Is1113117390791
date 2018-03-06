@@ -10,12 +10,7 @@ session_start();
         <title>Enter Details</title>
         <link rel="icon" href="/images/Logo.PNG" type="favicon">
         
-        <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="ebus2_validator.js"></script>
-    </head>
-    
-    <style>
+        <style>
     
         body {
             background-image: url("/images/CreditCard.jpg");
@@ -48,9 +43,12 @@ session_start();
               box-shadow: 0 5px #666;
               transform: translateY(4px);
             }
-
-
     </style>
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="ebus2_validator.js"></script>
+    </head>
     
     <body>
         <center>
