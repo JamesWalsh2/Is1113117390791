@@ -24,6 +24,9 @@ session_start();
             background-color: white;
             width: 300px;
             padding: 25px;
+            border: 5px solid gold;
+            border-radius: 5px;
+            margin: 0;
             }
         
         .next {

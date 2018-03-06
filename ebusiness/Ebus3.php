@@ -22,6 +22,9 @@ session_start();
             background-color: white;
             width: 300px;
             padding: 25px;
+            border: 5px solid green;
+            border-radius: 5px;
+            margin: 0;
             }
             
         .next {
@@ -69,7 +72,7 @@ session_start();
         echo"Email: " . $_SESSION["user_email"] . ".";
         echo "<br/>";
         echo "<br/>";
-        echo"Total cost is € " . $_SESSION["total"] . ".";
+        echo"Total cost is €" . $_SESSION["total"] . ".";
         ?>
         </div>
         

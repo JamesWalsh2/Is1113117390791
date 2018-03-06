@@ -19,6 +19,9 @@
             background-color: white;
             width: 300px;
             padding: 25px;
+            border: 5px solid purple;
+            border-radius: 5px;
+            margin: 0;
             }
             
         label {
@@ -102,6 +105,9 @@
                 <br/>
                 
             <div>
+                
+                <h4>All values are in €</h4>
+                
                 <label for="subtotal">
                     Sub Total:
                     <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
