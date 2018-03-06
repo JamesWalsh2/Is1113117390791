@@ -135,7 +135,7 @@
             <button onClick="calcSub()" class="btn next">Calculate Cost</button>
             <a role="button" href="Ebus1.php" class="btn next">Clear Choice</a>
             <a href="/ebusiness/shop.html" class="btn next">Cancel Purchase</a>
-            </br>
+            <br/>
             
         </center>
         
