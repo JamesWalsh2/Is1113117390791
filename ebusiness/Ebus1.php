@@ -60,6 +60,7 @@
         <center>
             <div>
             <h3>Please enter the following details:</h3>
+            <!--onSubmit is used for validation-->
             <form method="POST" action="Ebus2.php" name="customer details" onSubmit="return validateCustomer()">
                 
                 <label for="user_name">
@@ -79,7 +80,8 @@
                
             <div>  
                 <h4>Select a product:</h4>
-    
+                
+                <!--Euro symbols work on heroku-->
                 <label for="salesforce">
                     SalesForce @ €100
                 </label>
@@ -131,6 +133,7 @@
                 
                 <br/>
                 
+                <!--Button is allowed to be pressed after the Calculate Cost button is pressed-->
                 <button type="submit" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
                 
             </form>

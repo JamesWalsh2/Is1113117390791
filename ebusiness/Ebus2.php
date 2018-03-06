@@ -58,6 +58,7 @@ session_start();
             <h4>Please enter your payment details.</h4>
             <br/>
             
+            <!--onSubmit calls the validation function-->
             <form method="POST" action="Ebus3.php" name="card details" onSubmit="return validateDetails()">
                 
             <br/>

@@ -2,6 +2,7 @@ body {
     background-image: url("/images/Pc.jpg");
     background-size: cover;
     background-position: center;
+    /*Image covers page*/
     height: 100vh;
     font-family: verdana;
 }
@@ -12,15 +13,19 @@ h1 {
     font-family: verdana;
 }
 .cv {
+    /*Removes hyperlink line*/
     text-decoration: none;
     padding: 10px 20px;
     font-family: inherit;
     font-size: 15px;
     color: #4CAF50;
     background-color: white;
+    /*Coloured border*/
     border-radius: 8px;
     border: 2px solid #4CAF50;
 }
+    /*Colour of button when you hover on it*/
+    /*Learned this from W3 Schools*/
 .cv:hover {background-color: #3e8e41}
 
 .cv:active {

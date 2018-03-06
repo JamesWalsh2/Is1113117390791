@@ -1,5 +1,6 @@
 /* global $ */
 
+//Validation functions
 function validateDetails(){
     
     var number = document.forms["card details"]["user_number"].value;

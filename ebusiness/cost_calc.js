@@ -1,10 +1,10 @@
-/* global $ */
-
+/* global variables */
      var argSubtotal;
      var discountAmt;
      var vatAmt;
      var totalPrice;
      
+//Validation functions
 function validateCustomer(){
     
     var name = document.forms["customer details"]["user_name"].value;
@@ -29,6 +29,7 @@ function validateCustomer(){
         }
 }
 
+//Calculating cost functions
 function calcSub(){
     
         if(document.getElementById('salesforce').checked) {
@@ -58,7 +59,8 @@ function calDisVatTotal(parmSubTotal){
       
 display(argSubtotal, discountAmt, vatAmt, totalPrice);
 }
-        
+
+//Parm displays the variables in the textboxes
 function display(parm1, parm2, parm3, parm4){
     
     document.getElementById("subtotal").value = parm1;
